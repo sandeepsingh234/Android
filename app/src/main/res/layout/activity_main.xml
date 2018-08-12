@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="135dp"
+        android:layout_height="133dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:src="@drawable/employee_login_pic" />
+
+    <EditText
+        android:id="@+id/editText_user"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_centerInParent="true"
+        android:drawableLeft="@drawable/ic_action_account"
+        android:ems="10"
+        android:hint="Employee Username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_pass"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="204dp"
+        android:drawableLeft="@drawable/ic_action_lock"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:hint="Password"
+
+        />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="135dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="139dp"
+        android:background="#000"
+        android:text="LOGIN"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
