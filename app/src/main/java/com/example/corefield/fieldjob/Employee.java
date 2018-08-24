@@ -1,35 +1,63 @@
 package com.example.corefield.fieldjob;
 
+
 public class Employee {
 
-    int mAGE,mIMAGE;
-    String mNAME, mDEPARTMENT ,mDESIGNATION;
+    private int mAge, mImage;
+    private String mName, mDepartment, mDesignation, mGender;
 
-    public Employee(int AGE, int IMAGE, String NAME, String DEPARTMENT, String DESIGNATION) {
-        this.mAGE = AGE;
-        this.mIMAGE = IMAGE;
-        this.mNAME = NAME;
-        this.mDEPARTMENT = DEPARTMENT;
-        this.mDESIGNATION = DESIGNATION;
+
+    public int getmAge() {
+        return mAge;
     }
 
-    public int getAGE() {
-        return mAGE;
+    public void setmAge(int mAge) {
+        this.mAge = mAge;
     }
 
-    public int getIMAGE() {
-        return mIMAGE;
+    public int getmImage() {
+        return mImage;
     }
 
-    public String getNAME() {
-        return mNAME;
+    public void setmImage(int mImage) {
+        this.mImage = mImage;
     }
 
-    public String getDEPARTMENT() {
-        return mDEPARTMENT;
+    public String getmName() {
+        return mName;
     }
 
-    public String getDESIGNATION() {
-        return mDESIGNATION;
+    public void setmName(String mName) {
+        this.mName = mName;
     }
+
+    public String getmDepartment() {
+        return mDepartment;
+    }
+
+    public void setmDepartment(String mDepartment) {
+        this.mDepartment = mDepartment;
+    }
+
+    public String getmDesignation() {
+        return mDesignation;
+    }
+
+    public void setmDesignation(String mDesignation) {
+        this.mDesignation = mDesignation;
+    }
+
+    public String getmGender() {
+        return mGender;
+    }
+
+    public Employee(int age, int image, String name, String department, String designation, String gender) {
+        this.mAge = age;
+        this.mImage = image;
+        this.mName = name;
+        this.mDepartment = department;
+        this.mDesignation = designation;
+        this.mGender = gender;
+    }
+
 }

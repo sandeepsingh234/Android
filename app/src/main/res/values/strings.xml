@@ -1,3 +1,37 @@
 <resources>
-    <string name="app_name">FieldJob</string>
+    <string name="app_name">FieldMobile</string>
+<string name="eid"><b>Employee ID:</b> 6798s65</string>
+    <string name="BloodGroup"><b>Blood Group:</b>A+</string>
+    <string name="contact"><b>Contact No:</b>+91-7830034562</string>
+    <string name="Email"><b>Email Id:</b>abc@corefield.co.in</string>
+    <string name="per_address"> <b>Permanent Address:</b>\n
+ First Floor, Building No. 17,\n
+ Sector 44, Gurgaon - 122002,\n
+ Haryana
+    </string>
+    <string name="Temp_address"> <b>Temporary Address:</b>\n
+ 2nd Floor, Marisoft T-1,
+        \n Marigold Software Park,\n
+        Kalyaninagar,Pune,
+        \n Maharashtra 411014
+    </string>
+    <string name="details"><b>About:</b>\n
+        Started my professional journey at the age of 17 and have been funding my education since then.
+Currently working a Strategy advisory consultant in the Management Consulting arm of IBM Global Business Services (GBS).
+A trusted adviser to C-suite across a broad range of strategic issues and held numerous advisory and leadership roles in the
+        areas of Defining Business model,Customer Experience Design, Digital Transformation, Analytics, Change Management,
+        Consumer Engagement, Market/Digital Assessment and Process Excellence.\n\n
+→ Certified Business Analytics professional from ISB (Indian School of Business), Hyderabad\n
+→ MBA - Gold Medalist and Head of Student General Council from Karunya University, Coimbatore\n
+
+→ Winner of Digital Infomania Challenge held by ISB Digital Summit 2014\n\n
+→ Certified IBM Watson Ambassador and Design thinking practitioner\n
+→ Certified Black Belt Strategy Consultant - IBM-Twitter Social Analytics practice\n\n
+
+→ Notified an error in a financial report made by the Lehman Brothers, an Investment bank\n
+→ Speaker at national forums such as NHRD/Toast Masters International\n
+
+→ <b>Skill set:</b> Go-to-market strategy, Digital Eminence/Transformation,Marketing, Social Media Strategy/Listening, Brand Building, Process Improvement, Community Management,Competition analysis, Establishing teams, Segmentation, Media buying, Strategic Tie-ups and Partnership Development, Vendor Management, Guest Lecture and Public Speaking </string>
+    <string name="copyright">Copyright © 2018 <b>Corefield.co.in</b></string>
 </resources>
+
