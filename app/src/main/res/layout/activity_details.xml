@@ -24,20 +24,8 @@
             app:civ_border_color="@color/gray"
             app:civ_border_width="8dp" />
 
-
-        <!-- <ImageView
-             android:id="@+id/imageView_emp_details"
-             android:layout_width="125dp"
-             android:layout_height="match_parent"
-             android:layout_gravity="center"
-             android:layout_margin="10dp"
-             android:src="@mipmap/ic_launcher_user" />-->
-
     </LinearLayout>
-    <!-- <Space
-         android:layout_width="match_parent"
-         android:layout_height="4dp"
-         android:outlineAmbientShadowColor="@color/gray" />-->
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -79,16 +67,34 @@
                 android:gravity="center">
 
                 <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="Age"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
                     android:id="@+id/textView_age_details"
-                    android:layout_width="150dp"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:text="Age"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
                 <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
                     android:id="@+id/textView_gender"
-                    android:layout_width="150dp"
+                    android:layout_width="75dp"
                     android:layout_height="wrap_content"
                     android:text="Gender"
                     android:textColor="@color/black"
@@ -110,7 +116,8 @@
 
 
                     android:text="Status"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView_blood"
@@ -122,26 +129,57 @@
 
             </TableRow>
 
-
-            <TextView
-                android:id="@+id/textView_dep_details"
+            <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:gravity="center"
-                android:text="Department"
-                android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:gravity="center">
 
-            <TextView
-                android:id="@+id/textView_des_details"
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Department:"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView_dep_details"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="dep"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </TableRow>
+
+            <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="1dp"
-                android:gravity="center"
-                android:text="Designation"
-                android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Designation:"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView_des_details"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="des"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </TableRow>
 
             <TableRow
                 android:layout_width="match_parent"
@@ -163,7 +201,6 @@
                     android:id="@+id/spinner_document"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-
                     android:textAlignment="center"
                     android:tooltipText="documents">
 

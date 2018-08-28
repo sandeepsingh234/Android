@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="80dp"
-    android:layout_marginStart="4dp"
     android:layout_marginEnd="4dp"
+    android:layout_marginStart="4dp"
     android:background="@drawable/rectangle"
     android:orientation="vertical">
 
@@ -38,34 +38,77 @@
             android:textSize="20sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/textView_des"
+        <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="17dp"
-            android:text="Designation"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textSize="15sp" />
+            android:gravity="center">
 
-        <TextView
-            android:id="@+id/textView_dep"
+            <TextView
+                android:id="@+id/textView_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:text="Designation:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Designation"
+                android:textSize="15sp" />
+
+        </TableRow>
+
+        <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="17dp"
-            android:text="Deapartment"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textSize="15sp" />
+            android:gravity="center">
 
-        <TextView
-            android:id="@+id/textView_age"
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:text="Department:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView_dep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Department"
+                android:textSize="15sp" />
+
+        </TableRow>
+
+        <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="17dp"
-            android:text="Age"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textSize="15sp" />
+            android:gravity="center">
 
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:text="Age:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
 
+            <TextView
+                android:id="@+id/textView_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Age"
+                android:textSize="15sp" />
+
+        </TableRow>
     </LinearLayout>
 
     <Button
@@ -75,8 +118,5 @@
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
         android:background="@drawable/ic_action_delete"
-        android:focusable="false"
-        />
-
-
+        android:focusable="false" />
 </RelativeLayout>

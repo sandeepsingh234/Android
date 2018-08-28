@@ -19,8 +19,9 @@
         <activity
             android:name=".MainActivity"
             android:windowSoftInputMode="adjustResize"></activity>
-        <activity android:name=".EmployeeListActivity" />
-        <activity android:name=".EmployeeDetails" />
+
+        <activity android:name=".SecondActivity" />
+
 
     </application>
 
