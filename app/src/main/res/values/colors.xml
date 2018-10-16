@@ -6,7 +6,14 @@
     <color name="orange">#ff5500</color>
     <color name="white">#ffffff</color>
     <color name="transparent">#B5C0D4</color>
-    <color name="black">#000000</color>
+    <color name="black">#0e0e0e</color>
     <color name="gray">#27D1A7</color>
     <color name="blue">#0066cc</color>
+    <color name="dim">#fcffff</color>
+    <color name="bg_gradient_start">#374f87</color>
+    <color name="bg_gradient_end">#112961</color>
+    <color name="blue_all">#0A68C8</color>
+    <color name="blue_inside">#1175ba</color>
+    <color name="fb_blue">#374f87</color>
+   <!-- <color name="blue_inside">#0297FE</color>-->
 </resources>

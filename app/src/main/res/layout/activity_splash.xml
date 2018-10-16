@@ -2,17 +2,17 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/blue_inside"
     android:orientation="vertical">
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="207dp"
-        android:layout_height="173dp"
+        android:id="@+id/FM"
+        android:layout_width="97dp"
+        android:layout_height="36dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
-        android:layout_marginTop="144dp"
+        android:layout_marginTop="231dp"
         android:src="@drawable/fms" />
 
     <TextView
@@ -22,6 +22,7 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         android:layout_marginBottom="41dp"
+        android:textColor="@color/white"
         android:text="@string/copyright" />
 
 </RelativeLayout>

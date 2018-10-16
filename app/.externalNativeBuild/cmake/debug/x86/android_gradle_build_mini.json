@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "C:\\Users\\CoreField\\AndroidStudioProjects\\FieldJob\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\CoreField\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\CoreField\\AndroidStudioProjects\\FieldJob\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
+  ],
+  "libraries": {
+    "native-lib-Debug-x86": {
+      "artifactName": "native-lib",
+      "buildCommand": "C:\\Users\\CoreField\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\CoreField\\AndroidStudioProjects\\FieldJob\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target native-lib",
+      "abi": "x86",
+      "output": "C:\\Users\\CoreField\\AndroidStudioProjects\\FieldJob\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libnative-lib.so"
+    }
+  }
+}

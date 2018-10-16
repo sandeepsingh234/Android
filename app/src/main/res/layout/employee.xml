@@ -10,37 +10,42 @@
 
     <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/imageView_emp"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="92dp"
+        android:layout_height="95dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_gravity="center"
         android:layout_margin="3dp"
+        android:focusable="false"
         android:src="@drawable/e1"
-        app:civ_border_color="@color/gray"
+        app:civ_border_color="@color/blue_inside"
         app:civ_border_width="3dp" />
+
+    <TextView
+        android:id="@+id/textView_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/name"
+        android:padding="2dp"
+        android:text="Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="17dp"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="240dp"
         android:layout_height="80dp"
         android:layout_alignParentTop="true"
-        android:layout_margin="3dp"
         android:layout_toEndOf="@+id/imageView_emp"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/textView_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="7dp"
-            android:text="Name"
-            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-            android:textSize="20sp"
-            android:textStyle="bold" />
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
             android:gravity="center">
 
             <TextView
@@ -48,23 +53,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="17dp"
-                android:text="Designation:"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="Designation: "
                 android:textColor="@color/black"
-                android:textSize="15sp" />
+                android:textSize="14dp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView_des"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Designation"
-                android:textSize="15sp" />
+                android:textSize="14dp" />
 
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
             android:gravity="center">
 
             <TextView
@@ -72,23 +78,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="17dp"
-                android:text="Department:"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="Department: "
                 android:textColor="@color/black"
-                android:textSize="15sp" />
+                android:textSize="14dp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView_dep"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Department"
-                android:textSize="15sp" />
+                android:textSize="14dp" />
 
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
             android:gravity="center">
 
             <TextView
@@ -96,27 +103,52 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="17dp"
-                android:text="Age:"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="Age: "
                 android:textColor="@color/black"
-                android:textSize="15sp" />
+                android:textSize="14dp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView_age"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Age"
-                android:textSize="15sp" />
+                android:textSize="14dp" />
 
         </TableRow>
+
+        <!--  <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center">
+
+              <TextView
+                  android:id="@+id/text4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="17dp"
+                  android:text="Company:"
+                  android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                  android:textColor="@color/black"
+                  android:textSize="15dp" />
+
+              <TextView
+                  android:id="@+id/textView_company"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Corefield.Pvt.Ltd"
+                  android:textSize="15dp" />
+
+          </TableRow>-->
     </LinearLayout>
 
     <Button
         android:id="@+id/button_delete"
-        android:layout_width="39dp"
-        android:layout_height="34dp"
+        android:layout_width="28dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
-        android:background="@drawable/ic_action_delete"
-        android:focusable="false" />
+        android:background="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:focusable="true"
+        android:visibility="visible" />
 </RelativeLayout>

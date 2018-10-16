@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:theme="@style/AppTheme"
+            android:title="About" />
+        <item
+            android:id="@+id/employeelist"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Employee List" />
+        <item
+            android:id="@+id/field_report"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Field Report" />
+        <item
+            android:id="@+id/attendance"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Attendance" />
+        <item
+            android:id="@+id/company"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="Website" />
+        <item
+            android:id="@+id/coreField"
+            android:icon="@drawable/ic_assessment_black_24dp"
+            android:title="CoreField" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_phonelink_lock_black_24dp"
+            android:title="logout" />
+    </group>
+</menu>

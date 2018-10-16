@@ -4,34 +4,34 @@
     <string name="BloodGroup"><b>Blood Group:</b>A+</string>
     <string name="contact"><b>Contact No:</b>+91-7830034562</string>
     <string name="Email"><b>Email Id:</b>abc@corefield.co.in</string>
-    <string name="per_address"> <b>Permanent Address:</b>\n
- First Floor, Building No. 17,\n
- Sector 44, Gurgaon - 122002,\n
- Haryana
+    <string name="contact1">+91-7830034562</string>
+    <string name="contact2">+91-9803234543</string>
+    <string name="Email1">abc@corefield.co.in</string>
+    <string name="Email2">abc@gmail.com</string>
+    <string name="per_address">First Floor, Building No. 17,\nSector 44, Gurgaon - 122002,\nHaryana
     </string>
-    <string name="Temp_address"> <b>Temporary Address:</b>\n
- 2nd Floor, Marisoft T-1,
-        \n Marigold Software Park,\n
-        Kalyaninagar,Pune,
-        \n Maharashtra 411014
+    <string name="Temp_address">
+           2nd Floor, Marisoft T-1,
+        \nMarigold Software Park,\nKalyaninagar,Pune,
+        \nMaharashtra 411014
     </string>
-    <string name="details"><b>About:</b>\n
+    <string name="details">
         Started my professional journey at the age of 17 and have been funding my education since then.
 Currently working a Strategy advisory consultant in the Management Consulting arm of IBM Global Business Services (GBS).
-A trusted adviser to C-suite across a broad range of strategic issues and held numerous advisory and leadership roles in the
-        areas of Defining Business model,Customer Experience Design, Digital Transformation, Analytics, Change Management,
-        Consumer Engagement, Market/Digital Assessment and Process Excellence.\n\n
-→ Certified Business Analytics professional from ISB (Indian School of Business), Hyderabad\n
-→ MBA - Gold Medalist and Head of Student General Council from Karunya University, Coimbatore\n
-
-→ Winner of Digital Infomania Challenge held by ISB Digital Summit 2014\n\n
-→ Certified IBM Watson Ambassador and Design thinking practitioner\n
-→ Certified Black Belt Strategy Consultant - IBM-Twitter Social Analytics practice\n\n
-
-→ Notified an error in a financial report made by the Lehman Brothers, an Investment bank\n
-→ Speaker at national forums such as NHRD/Toast Masters International\n
-
-→ <b>Skill set:</b> Go-to-market strategy, Digital Eminence/Transformation,Marketing, Social Media Strategy/Listening, Brand Building, Process Improvement, Community Management,Competition analysis, Establishing teams, Segmentation, Media buying, Strategic Tie-ups and Partnership Development, Vendor Management, Guest Lecture and Public Speaking </string>
+ </string>
     <string name="copyright">Copyright © 2018 <b>Corefield.co.in</b></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="cft_about"> <b>Corefield Technologies Pvt Ltd </b>has been setup with the main aim of providing IT solutions for Businesses dealing with <b>‘Field work Force’</b>. The available solutions for managing the operations part of such businesses leaves a big white space.
+</string>
+    <string name="cft1"><b>FieldWeb</b>is a complete operations lifecycle management solution for Businesses dealing with <b>‘Field work Force’</b>.</string>
+    <string name="cft2">We serve you to optimize your IT Costs from general IT Operations to IT as a strategic proponent for your business.</string>
+    <string name="cft3">This service enables you to have a virtual time shared CIO, as a service. </string>
+    <string name="rupee">₹</string>
 </resources>
 
